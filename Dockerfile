@@ -1,5 +1,4 @@
-FROM nethost/alpine:latest
-
+FROM nethost/alpine:3.6
 MAINTAINER billgo <cocobill@vip.qq.com>
 
 ENV NGINX_VERSION 1.12.1
