@@ -1,5 +1,13 @@
 # How to use this image
 
+## 1.14
+
+```
+$ docker build -t=nethost/nginx:1.14-alpine .
+$ docker push nethost/nginx:1.14-alpine
+$ docker pull nethost/nginx:1.14-alpine
+```
+
 ## Hosting some simple static content
 
 ```console
